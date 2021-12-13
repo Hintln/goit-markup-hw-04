@@ -193,6 +193,10 @@ margin-left: auto;
     background-color: #2f303a;
     padding: 200px 0 210px;
     margin-bottom: 94px;
+    background-image: url(../images/Img\ \(1\).jpg);
+    background-size: cover;
+    background-position:center;
+    width: 1600px;
 }
 
 
@@ -207,8 +211,7 @@ margin-left: auto;
     text-align:center;
 }
 .hero-title{
-        color: #ffffff;
-    background-color: #2F303A;
+    color: #ffffff;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3;
