@@ -158,6 +158,28 @@ display: flex;
 margin-left: auto;
 }
 
+.mail::before{
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+    background-color: red;
+    border:1px solid red;
+
+}
+
+.phone::before{
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+    background-color: red;
+    border:1px solid red;
+
+
+}
 
 
 .link-box-header,
