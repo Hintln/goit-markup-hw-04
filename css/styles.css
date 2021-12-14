@@ -180,7 +180,6 @@ border: none;
     fill: var(--accent-color);
 }
 
-
 .icon-phone{
     display: inline-flex;
     fill: var(--secondary-text-color);
@@ -193,7 +192,6 @@ border: none;
 .icon-phone:focus{
     fill: var(--accent-color);
 }
-
 
 
 .link-box-header,
