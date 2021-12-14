@@ -159,23 +159,25 @@ margin-left: auto;
 }
 
 .mail::before{
-    content: '';
     display: inline-block;
-    margin-right: 10px;
     width: 16px;
     height: 12px;
+    margin-right: 10px;
+    content: '';
     background-image: url(../images/mail.svg);
+    background-size: contain;
 
 }
 
 .phone::before{
-    content: '';
     display: inline-block;
+    width: 10px;
+    height: 16px;
     margin-right: 10px;
-    width: 16px;
-    height: 12px;
+    content: '';
     background-image: url(../images/smartphone\ .svg);
-    
+    background-size: contain;
+
 }
 
 
