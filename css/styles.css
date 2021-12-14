@@ -548,28 +548,46 @@ margin-left: 30px;
 
 .team-social{
     display: inline-block;
+    align-items: center;
+    margin: 16px 32px;
     width: 206px;
-    height: 44px;
-    text-align: center;
 }
 
 .inst-link{
 
 }
 
-.twit-link{
+.inst-icon{
+    width: 20px;
+    height: 20px;
+}
 
+.social-link{
+    display: inline-block;
+    align-items: center;
+    width: 44px;
+}
+
+.twitter-icon{
+    width: 20px;
+    height: 20px;
 }
 
 .facebook-link{
-
 }
 
+.facebook-icon{
+    width: 20px;
+    height: 20px;
+}
 
 .linkedin-link{
-
 }
 
+.linkedin-icon{
+    width: 20px;
+    height: 20px;
+}
 
 
 /* ====footer=== */
