@@ -296,7 +296,10 @@ margin-left: auto;
 
 
 
-
+.main-section{
+    height: 251px;
+    align-items: center;
+}
 
 .services-list{
     display: flex;
@@ -312,11 +315,36 @@ margin-left: auto;
     height: 101px;
 }
 
+.services-item::before{
+    display: block;
+    content: '';
+    height: 120px;
+    background: #F5F4FA;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-antena::before{
+    background-image: url(../images/antenna\ .svg);
+}
+
+.icon-clock::before{
+    background-image: url(../images/clock\ .svg);
+}
+
+.icon-diagram::before{
+    background-image: url(../images/diagram\ .svg);
+}
+
+.icon-astronaut::before{
+    background-image: url(../images/astronaut\ .svg);
+}
+
 .services-preview{
     width: 370px;
     height: 404px;
     margin-right: 30px;
-    margin-bottom: 30px;  
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;  
@@ -408,6 +436,7 @@ margin-left: auto;
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 30px;
     margin-bottom: 10px;
     text-align: left;
 
@@ -433,6 +462,7 @@ margin-left: auto;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+    margin-top: 94px;
 }
 
 
