@@ -166,7 +166,6 @@ margin-left: auto;
     content: '';
     background-image: url(../images/mail.svg);
     background-size: contain;
-
 }
 
 .phone::before{
@@ -177,8 +176,9 @@ margin-left: auto;
     content: '';
     background-image: url(../images/smartphone\ .svg);
     background-size: contain;
-
 }
+
+
 
 
 .link-box-header,
