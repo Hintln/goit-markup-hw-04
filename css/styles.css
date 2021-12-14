@@ -153,31 +153,46 @@ address{
     margin-left: 50px;
 }
 
+.nav-item:hover,
+.nav-item:focus{
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
+
 .connect-nav{
 display: flex;
 margin-left: auto;
+border: none;
 }
 
-.mail::before{
-    display: inline-block;
+
+.button-mail{
+    display: inline-flex;
+    fill: var(--secondary-text-color);
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    content: '';
-    background-image: url(../images/mail.svg);
-    background-size: contain;
 }
 
-.phone::before{
-    display: inline-block;
+.button-mail:hover,
+.button-mail:focus{
+    fill: var(--accent-color);
+}
+
+
+.icon-phone{
+    display: inline-flex;
+    fill: var(--secondary-text-color);
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    content: '';
-    background-image: url(../images/smartphone\ .svg);
-    background-size: contain;
 }
 
+.icon-phone:hover,
+.icon-phone:focus{
+    fill: var(--accent-color);
+}
 
 
 
