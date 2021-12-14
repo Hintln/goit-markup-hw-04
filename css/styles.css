@@ -320,7 +320,7 @@ margin-left: auto;
     content: '';
     height: 120px;
     background: #F5F4FA;
-    background-size: contain;
+    background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
 }
