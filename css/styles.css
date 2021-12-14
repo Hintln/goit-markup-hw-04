@@ -170,8 +170,8 @@ border: none;
 .button-mail{
     display: inline-flex;
     fill: var(--secondary-text-color);
-    width: 16px;
-    height: 12px;
+    justify-content: center;
+    align-items: center;
     margin-right: 10px;
 }
 
@@ -184,8 +184,8 @@ border: none;
 .icon-phone{
     display: inline-flex;
     fill: var(--secondary-text-color);
-    width: 10px;
-    height: 16px;
+    justify-content: center;
+    align-items: center;
     margin-right: 10px;
 }
 
