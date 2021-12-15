@@ -156,7 +156,6 @@ address{
 .nav-item:hover,
 .nav-item:focus{
     color: var(--accent-color);
-    fill: var(--accent-color);
 }
 
 
@@ -167,34 +166,22 @@ border: none;
 }
 
 
-.button-mail{
+.icon-mail{
     display: inline-flex;
-    fill: var(--secondary-text-color);
     justify-content: center;
     align-items: center;
     margin-right: 10px;
 }
 
-.button-mail:hover,
-.button-mail:focus{
-    fill: var(--accent-color);
-}
 
 .icon-phone{
     display: inline-flex;
-    fill: var(--secondary-text-color);
     justify-content: center;
     align-items: center;
     margin-right: 10px;
 }
 
-.icon-phone:hover,
-.icon-phone:focus{
-    fill: var(--accent-color);
-}
-
-
-.link-box-header,
+.link-box-phone,
 .link-box-mail{
     color: var(--secondary-text-color);
     font-weight: 500;
@@ -203,8 +190,8 @@ border: none;
     letter-spacing: 0.02em; 
 }
 
-.link-box-header:hover,
-.link-box-header:focus{
+.link-box-phone:hover,
+.link-box-phone:focus{
     color: var(--accent-color);
 }
 
