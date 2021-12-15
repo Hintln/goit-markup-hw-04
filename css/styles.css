@@ -549,11 +549,13 @@ margin-left: 30px;
 .team-social{
     display: inline-block;
     align-items: center;
-    margin: 16px 32px;
     width: 206px;
+    height: 44px;
+
 }
 
 .inst-link{
+    
 
 }
 
