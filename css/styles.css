@@ -645,6 +645,8 @@ margin-left: 30px;
 
 .section-footer{
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
@@ -656,8 +658,8 @@ margin-left: 30px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     margin-bottom: 20px;
-    width: 145px;
-    height: 31px;
+    margin-right: 70px;
+
 }
 
 .logo-footer:hover,
@@ -675,11 +677,10 @@ margin-left: 30px;
     letter-spacing: 0.03em;
 }
 
- .section-footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
- }
-
+.footer-links{
+    display: block;
+    margin-bottom: 20px;
+}
 
 .adress-link{
     color: #ffffff; 
@@ -717,9 +718,6 @@ margin-left: 30px;
 
 .footer-container{
     display: flex;
-    flex-direction: column;
-    width: 206px;
-    height: 80px;
 }
 
 .footer-title{
