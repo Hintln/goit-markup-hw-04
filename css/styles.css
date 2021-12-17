@@ -657,8 +657,6 @@ margin-left: 30px;
 
 .section-footer{
     background-color: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
 
 }
 
@@ -669,6 +667,7 @@ margin-left: 30px;
     font-size: 26px;
     line-height: 1.1;
     letter-spacing: 0.03em;
+    margin-top: 60px;
     margin-bottom: 20px;
     margin-right: 70px;
 
@@ -694,6 +693,10 @@ margin-left: 30px;
     margin-bottom: 20px;
 }
 
+.adress-list{
+    margin-bottom: 60px;
+}
+
 .adress-link{
     color: #ffffff; 
     background-color: #2F303A;
@@ -704,8 +707,7 @@ margin-left: 30px;
 }
 
 .adress-link:hover,
-.adress-link:focus
-{
+.adress-link:focus{
     color: var(--accent-color);
 }
 
@@ -781,3 +783,8 @@ margin-left: 30px;
     fill: var(--background-color);
 }
 
+
+.footer-join{
+    margin-top: 72px;
+    margin-bottom: 100px;
+}
