@@ -140,6 +140,11 @@ address{
     letter-spacing: 0.02em; 
 }
 
+
+.portfolio{
+    color: var(--accent-color)
+}
+
 .nav-link:hover,
 .nav-link:focus{
     color: var(--accent-color);
