@@ -102,6 +102,7 @@ address{
     border-bottom: 1px solid #ECECEC;
 }
 
+
 .active-page{
     color:var(--accent-color);
     font-family: Raleway;
@@ -125,6 +126,8 @@ address{
      margin-bottom: 94px;
 
 }
+
+
 
 .nav-link{
     display: block;
@@ -156,6 +159,7 @@ address{
 .nav-item:hover,
 .nav-item:focus{
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 
