@@ -229,6 +229,8 @@ border: none;
     text-align: center;
     background-color: #2f303a;
     padding: 200px 0 210px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 94px;
     background-image: linear-gradient(
     to right,
@@ -259,6 +261,7 @@ border: none;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align:center;
+    
 
 }
 
@@ -660,6 +663,9 @@ margin-left: 30px;
 
 .section-footer{
     background-color: #2F303A;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
