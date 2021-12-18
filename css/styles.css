@@ -177,30 +177,24 @@ border: none;
 
 .icon-mail{
     display: inline-flex;
-    fill: var(--secondary-text-color);
+    fill:currentColor;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
 }
 
 
-.icon-mail:hover,
-.icon-mail:focus{
-    fill: var(--accent-color);
-}
+
 
 .icon-phone{
     display: inline-flex;
-    fill: var(--secondary-text-color);
+    fill: currentColor;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
 }
 
-.icon-phone:hover,
-.icon-phone:focus{
-    fill:var(--accent-color);
-}
+
 
 .link-box-phone,
 .link-box-mail{
