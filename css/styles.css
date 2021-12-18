@@ -183,7 +183,8 @@ border: none;
     margin-right: 10px;
 }
 
- .icon-mail:hover,
+
+.icon-mail:hover,
 .icon-mail:focus{
     fill: var(--accent-color);
 }
@@ -219,6 +220,7 @@ border: none;
 .link-box-mail:focus{
     color: var(--accent-color);
 }
+
 
 
 
